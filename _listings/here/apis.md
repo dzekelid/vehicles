@@ -9,11 +9,98 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here
 x-kinRank: "7"
 x-alexaRank: "3011"
 tags: Vehicles
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/here/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Map Tile API - Fleet Vehicle Map
+  x-api-slug: maptilenewestnormal-day1340932723256png8-get
+  description: |-
+    *Request a street map tile using the fleet vehicle color scheme*
+
+    Fleet color scheme map tiles are available by passing `style=fleet` as a parameter of the request URL.
+
+
+
+    * **style**  `enum`
+     \- If present, selects the style to use to render the tile.
+
+     Valid values are : `default`, `alps`, `fleet`, `wings`, `dreamworks`, `flame`, `mini`
+
+    * **app_id**  `text`
+     \- A 20 byte Base64 URL-safe encoded string used for the authentication of the client application.    You must include an `app_id` with every request.
+
+    * **app_code**  `text`
+     \- A 20 byte Base64 URL-safe encoded string used for the authentication of the client application.    You must include an `app_code` with every request.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
+  humanURL: https://developer.here.com
+  baseURL: https://1.aerial.maps.cit.api.here.com//maptile/2.1/maptile/newest
+  tags: Technology, Mobile, internet, API Provider, Profiles, General Data, Relative
+    Data, Maps
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/here/maptilenewestnormal-day1340932723256png8-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/here/maptilenewestnormal-day1340932723256png8-get-openapi.md
+- name: Map Tile API - Fleet Vehicle Map
+  x-api-slug: maptilenewestnormal-day1340932723256png8-get
+  description: |-
+    *Request a street map tile using the fleet vehicle color scheme*
+
+    Fleet color scheme map tiles are available by passing `style=fleet` as a parameter of the request URL.
+
+
+
+    * **style**  `enum`
+     \- If present, selects the style to use to render the tile.
+
+     Valid values are : `default`, `alps`, `fleet`, `wings`, `dreamworks`, `flame`, `mini`
+
+    * **app_id**  `text`
+     \- A 20 byte Base64 URL-safe encoded string used for the authentication of the client application.    You must include an `app_id` with every request.
+
+    * **app_code**  `text`
+     \- A 20 byte Base64 URL-safe encoded string used for the authentication of the client application.    You must include an `app_code` with every request.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
+  humanURL: https://developer.here.com
+  baseURL: https://1.aerial.maps.cit.api.here.com//maptile/2.1/maptile/newest
+  tags: Technology, Mobile, internet, API Provider, Profiles, General Data, Relative
+    Data, Maps
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/here/maptilenewestnormal-day1340932723256png8-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/here/maptilenewestnormal-day1340932723256png8-get-openapi.md
+- name: Map Tile API - Fleet Vehicle Map
+  x-api-slug: maptilenewestnormal-day1340932723256png8-get
+  description: |-
+    *Request a street map tile using the fleet vehicle color scheme*
+
+    Fleet color scheme map tiles are available by passing `style=fleet` as a parameter of the request URL.
+
+
+
+    * **style**  `enum`
+     \- If present, selects the style to use to render the tile.
+
+     Valid values are : `default`, `alps`, `fleet`, `wings`, `dreamworks`, `flame`, `mini`
+
+    * **app_id**  `text`
+     \- A 20 byte Base64 URL-safe encoded string used for the authentication of the client application.    You must include an `app_id` with every request.
+
+    * **app_code**  `text`
+     \- A 20 byte Base64 URL-safe encoded string used for the authentication of the client application.    You must include an `app_code` with every request.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
+  humanURL: https://developer.here.com
+  baseURL: https://1.aerial.maps.cit.api.here.com//maptile/2.1/maptile/newest
+  tags: Technology, Mobile, internet, API Provider, Profiles, General Data, Relative
+    Data, Maps
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/here/maptilenewestnormal-day1340932723256png8-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/here/maptilenewestnormal-day1340932723256png8-get-openapi.md
 - name: Map Tile API - Fleet Vehicle Map
   x-api-slug: maptilenewestnormal-day1340932723256png8-get
   description: |-

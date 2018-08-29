@@ -8,11 +8,110 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "1035226"
 tags: Vehicles
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/coord/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Users API - Update the current user's vehicle
+  x-api-slug: usercurrentvehicle-put
+  description: |-
+    Update the vehicle information associated with the currently logged in user.
+
+    The request should contain a vehicle object:
+    ```
+      {
+        "license_plate": {
+          "text": "123abc",
+          "country": "us",
+          "subdivision": "ny"
+        }
+      }
+    ```
+
+    On success, the response will be the identical object:
+    ```
+      {
+        "license_plate": {
+          "text": "123abc",
+          "country": "us",
+          "subdivision": "ny"
+        }
+      }
+    ```
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coord-logo.png
+  humanURL: https://coord.co
+  baseURL: https://api.coord.co//v1/users
+  tags: Parking, Tolls, Bikes, Routes, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/coord/usercurrentvehicle-put-openapi.md
+- name: Users API - Update the current user's vehicle
+  x-api-slug: usercurrentvehicle-put
+  description: |-
+    Update the vehicle information associated with the currently logged in user.
+
+    The request should contain a vehicle object:
+    ```
+      {
+        "license_plate": {
+          "text": "123abc",
+          "country": "us",
+          "subdivision": "ny"
+        }
+      }
+    ```
+
+    On success, the response will be the identical object:
+    ```
+      {
+        "license_plate": {
+          "text": "123abc",
+          "country": "us",
+          "subdivision": "ny"
+        }
+      }
+    ```
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coord-logo.png
+  humanURL: https://coord.co
+  baseURL: https://api.coord.co//v1/users
+  tags: Parking, Tolls, Bikes, Routes, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/coord/usercurrentvehicle-put-openapi.md
+- name: Users API - Update the current user's vehicle
+  x-api-slug: usercurrentvehicle-put
+  description: |-
+    Update the vehicle information associated with the currently logged in user.
+
+    The request should contain a vehicle object:
+    ```
+      {
+        "license_plate": {
+          "text": "123abc",
+          "country": "us",
+          "subdivision": "ny"
+        }
+      }
+    ```
+
+    On success, the response will be the identical object:
+    ```
+      {
+        "license_plate": {
+          "text": "123abc",
+          "country": "us",
+          "subdivision": "ny"
+        }
+      }
+    ```
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coord-logo.png
+  humanURL: https://coord.co
+  baseURL: https://api.coord.co//v1/users
+  tags: Parking, Tolls, Bikes, Routes, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/coord/usercurrentvehicle-put-openapi.md
 x-common:
 - type: x-blog
   url: https://medium.com/coord

@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-
 x-kinRank: "7"
 x-alexaRank: "2170360"
 tags: Vehicles
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/apis.md
 specificationVersion: "0.14"
 apis:
@@ -97,6 +97,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/devices821374c0d6d811e39c1a0800200c9a66vehicles-latest-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/devices821374c0d6d811e39c1a0800200c9a66vehicles-latest-get-openapi.md
+- name: Vinli - Report Cards for a Vehicle
+  x-api-slug: vehicles8480c5b76f3e40b3a78e3555617d44b0report-cards-get
+  description: Report cards for a vehicle.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-vin-li.jpg
+  humanURL: http://vinli.com
+  baseURL: https://events.vin.li//api/v1
+  tags: Mobile, Technology, Automobiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/vehicles8480c5b76f3e40b3a78e3555617d44b0report-cards-get-openapi.md
 - name: Vinli - List All Odometer Reports for a Vehicle
   x-api-slug: vehicles9aa35c64b04643cc9cd84c353a6d0b30odometers-get
   description: List all odometer reports for a vehicle.
@@ -157,6 +167,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/devices821374c0d6d811e39c1a0800200c9a66vehicles-latest-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/devices821374c0d6d811e39c1a0800200c9a66vehicles-latest-get-openapi.md
+- name: Vinli - Report Cards for a Vehicle
+  x-api-slug: vehicles8480c5b76f3e40b3a78e3555617d44b0report-cards-get
+  description: Report cards for a vehicle.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-vin-li.jpg
+  humanURL: http://vinli.com
+  baseURL: https://events.vin.li//api/v1
+  tags: Mobile, Technology, Automobiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/vehicles8480c5b76f3e40b3a78e3555617d44b0report-cards-get-openapi.md
 - name: Vinli - List All Odometer Reports for a Vehicle
   x-api-slug: vehicles9aa35c64b04643cc9cd84c353a6d0b30odometers-get
   description: List all odometer reports for a vehicle.
@@ -169,6 +189,76 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/vehicles9aa35c64b04643cc9cd84c353a6d0b30odometers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/vehicles9aa35c64b04643cc9cd84c353a6d0b30odometers-get-openapi.md
+- name: Vinli - List All Odometer Reports for a Vehicle
+  x-api-slug: vehicles9aa35c64b04643cc9cd84c353a6d0b30odometers-get
+  description: List all odometer reports for a vehicle.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-vin-li.jpg
+  humanURL: http://vinli.com
+  baseURL: https://events.vin.li//api/v1
+  tags: Mobile, Technology, Automobiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/vehicles9aa35c64b04643cc9cd84c353a6d0b30odometers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/vehicles9aa35c64b04643cc9cd84c353a6d0b30odometers-get-openapi.md
+- name: Vinli - Report Cards for a Vehicle
+  x-api-slug: vehicles8480c5b76f3e40b3a78e3555617d44b0report-cards-get
+  description: Report cards for a vehicle.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-vin-li.jpg
+  humanURL: http://vinli.com
+  baseURL: https://events.vin.li//api/v1
+  tags: Mobile, Technology, Automobiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/vehicles8480c5b76f3e40b3a78e3555617d44b0report-cards-get-openapi.md
+- name: Vinli - Get Device's Latest Vehicle
+  x-api-slug: devices821374c0d6d811e39c1a0800200c9a66vehicles-latest-get
+  description: Get device's latest vehicle.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-vin-li.jpg
+  humanURL: http://vinli.com
+  baseURL: https://events.vin.li//api/v1
+  tags: Mobile, Technology, Automobiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/devices821374c0d6d811e39c1a0800200c9a66vehicles-latest-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/devices821374c0d6d811e39c1a0800200c9a66vehicles-latest-get-openapi.md
+- name: Vinli - Get a List of Collisions for a Vehicle
+  x-api-slug: vehicles428bc62116e7489ba02aeb98526d01efcollisions-get
+  description: Get a list of collisions for a vehicle.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-vin-li.jpg
+  humanURL: http://vinli.com
+  baseURL: https://events.vin.li//api/v1
+  tags: Mobile, Technology, Automobiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/vehicles428bc62116e7489ba02aeb98526d01efcollisions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/vehicles428bc62116e7489ba02aeb98526d01efcollisions-get-openapi.md
+- name: Vinli - Get Vehicle Details
+  x-api-slug: vehiclesaa44769b3c0a46629bad25481cf5198f-get
+  description: Get vehicle details.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-vin-li.jpg
+  humanURL: http://vinli.com
+  baseURL: https://events.vin.li//api/v1
+  tags: Mobile, Technology, Automobiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/vehiclesaa44769b3c0a46629bad25481cf5198f-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/vehiclesaa44769b3c0a46629bad25481cf5198f-get-openapi.md
+- name: Vinli - List all Odometer Triggers for a Vehicle
+  x-api-slug: vehicles9aa35c64b04643cc9cd84c353a6d0b30odometer-triggers-get
+  description: List all odometer triggers for a vehicle.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-vin-li.jpg
+  humanURL: http://vinli.com
+  baseURL: https://events.vin.li//api/v1
+  tags: Mobile, Technology, Automobiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/vehicles9aa35c64b04643cc9cd84c353a6d0b30odometer-triggers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/vehicles/master/_listings/vinli/vehicles9aa35c64b04643cc9cd84c353a6d0b30odometer-triggers-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://blog.vin.li/rss/

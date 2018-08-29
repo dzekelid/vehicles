@@ -3,8 +3,8 @@ swagger: "2.0"
 x-collection-name: Vinli
 x-complete: 0
 info:
-  title: Vinli Get Vehicle Details
-  description: Get vehicle details.
+  title: Vinli Report Cards for a Vehicle
+  description: Report cards for a vehicle.
   version: 1.0.0
 host: events.vin.li
 basePath: /api/v1
